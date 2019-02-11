@@ -1,0 +1,39 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 22 Jan 2019 22:29:23 at http://studio96.webflow.io/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://studio96.webflow.io/ -O1 "C:\My Web Sites\web1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:29:24	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/robots.txt (from primary/primary)
+22:30:12	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/pricing (from studio96.webflow.io/)
+22:30:12	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/contact (from studio96.webflow.io/)
+22:30:13	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/team/kanny-harley (from studio96.webflow.io/)
+22:30:13	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/team/kara-hield (from studio96.webflow.io/)
+22:30:13	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/posts/updates-to-payments (from studio96.webflow.io/)
+22:30:14	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/posts/helping-others-succeed (from studio96.webflow.io/)
+22:30:14	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/category/company-updates (from studio96.webflow.io/blog)
+22:30:14	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/category/giving-back (from studio96.webflow.io/blog)
+22:30:15	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/category/new-features (from studio96.webflow.io/blog)
+22:30:15	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/pricing (from studio96.webflow.io/)
+22:30:15	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/contact (from studio96.webflow.io/)
+22:30:15	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/team/kanny-harley (from studio96.webflow.io/)
+22:30:15	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/team/kara-hield (from studio96.webflow.io/)
+22:30:15	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/posts/updates-to-payments (from studio96.webflow.io/)
+22:30:15	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/posts/helping-others-succeed (from studio96.webflow.io/)
+22:30:16	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/category/company-updates (from studio96.webflow.io/blog)
+22:30:16	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/category/giving-back (from studio96.webflow.io/blog)
+22:30:16	Warning: 	Retry after error 504 (GATEWAY_TIMEOUT) at link studio96.webflow.io/category/new-features (from studio96.webflow.io/blog)
+22:30:16	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/pricing (from studio96.webflow.io/)
+22:30:16	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/contact (from studio96.webflow.io/)
+22:30:16	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/team/kanny-harley (from studio96.webflow.io/)
+22:30:16	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/team/kara-hield (from studio96.webflow.io/)
+22:30:16	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/posts/updates-to-payments (from studio96.webflow.io/)
+22:30:16	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/posts/helping-others-succeed (from studio96.webflow.io/)
+22:30:17	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/category/company-updates (from studio96.webflow.io/blog)
+22:30:17	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/category/giving-back (from studio96.webflow.io/blog)
+22:30:17	Error: 	"GATEWAY_TIMEOUT" (504) after 2 retries at link studio96.webflow.io/category/new-features (from studio96.webflow.io/blog)
+
+HTTrack Website Copier/3.49-2 mirror complete in 54 seconds : 58 links scanned, 30 files written (2152583 bytes overall) [1959446 bytes received at 36286 bytes/sec], 304069 bytes transferred using HTTP compression in 13 files, ratio 27%, 3.6 requests per connection
+(10 errors, 18 warnings, 0 messages)
