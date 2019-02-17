@@ -45,6 +45,10 @@ url("fonts/Lato_Regular.ttf")
    font-family: 'CaviarDreams',sans-serif;
 }
 
+a:hover{
+   font-weight: 100;
+}
+
 html {
    font-family: sans-serif;
    -ms-text-size-adjust: 100%;
@@ -74,11 +78,19 @@ audio:not([controls]) {
 }
 
 a {
-   background-color: transparent
+   background-color: transparent;
+   color: #fff;
+   text-decoration: none;
+   font-weight: lighter;
+   font-size: 20px;
+   transition: font-weight 200ms, font-size 200ms;
 }
 
 a:active, a:hover {
-   outline: 0
+   outline: 0;
+   text-decoration: none;
+   font-weight: bold;
+   transition: font-weight 200ms, font-size 200ms;
 }
 
 abbr[title] {
@@ -2020,10 +2032,6 @@ p {
    line-height: 30px;
 }
 
-a {
-   text-decoration: underline;
-}
-
 img {
    display: inline-block;
    max-width: 100%;
@@ -2054,7 +2062,7 @@ blockquote {
 
 .section.case-studies-section {
    overflow: hidden;
-   padding-top: 649px;
+   padding-top: 240px;
 }
 
 .section.our-team-section {
@@ -2102,7 +2110,7 @@ blockquote {
 
 .section.blog-section {
    overflow: hidden;
-   padding-top: 472px;
+   padding-top: 200px;
    padding-bottom: 100px;
    background-color: #f5f5f5;
 }
@@ -2263,7 +2271,6 @@ blockquote {
    right: -50px;
    margin-top: 0px;
    margin-bottom: 0px;
-   color: #1a1a1a;
    font-size: 29vh;
    line-height: 43vh;
    text-align: right;
@@ -2294,8 +2301,8 @@ blockquote {
    margin-top: 406px;
    margin-bottom: 130px;
    font-size: 70px;
-   line-height: 67px;
-   font-weight: 100;
+   line-height: 80px;
+   font-weight: bold;
 }
 
 .intro-paragraph.our-team-intro {
@@ -2497,7 +2504,8 @@ blockquote {
    overflow: hidden;
    width: 49%;
    height: 350px;
-   margin-top: -593px;
+   opacity: 0.8;
+   margin-top: -557px;
    padding-top: 162px;
    float: right;
    background-color: #eee;
@@ -2512,7 +2520,7 @@ blockquote {
 }
 
 .show-more-studies:hover {
-   opacity: 0.8;
+   opacity: 0.6;
    -webkit-transform: perspective(957px) translate3d(0px, 0px, -15px);
    transform: perspective(957px) translate3d(0px, 0px, -15px);
 }
@@ -2533,7 +2541,7 @@ blockquote {
 
 .view-all-case-studies {
    position: static;
-   color: #7c7c7c;
+   color: #414040;
 }
 
 .read-case-study {
