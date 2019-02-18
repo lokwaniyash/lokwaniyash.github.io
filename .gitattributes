@@ -1,1 +1,2 @@
- hosted with ❤ by GitHub
+* linguist-vendored
+*.js linguist-vendored=false
