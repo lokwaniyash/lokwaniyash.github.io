@@ -41,6 +41,18 @@ nav{
     box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
+a.foot{
+	color: #fff;
+	font-size: 14px;
+	transition: font-size 200ms;
+}
+
+a.foot:hover{
+	color: #fff;
+	font-size: 16px;
+	transition: font-size 200ms;
+}
+
 .nav-menu{
     float: right;
     line-height: 32px;
