@@ -3,23 +3,11 @@ $message = '';
 $error = '';
 if(isset($_POST["submit"]))
 {
-	  if(empty($_POST["name"]))
+	  if(1==1)
 	  {
-			 $error = "<label class='text-danger'>Enter Name</label>";
-	  }
-	  else if(empty($_POST["email"]))
-	  {
-			 $error = "<label class='text-danger'>Enter Gender</label>";
-	  }
-	  else if(empty($_POST["message"]))
-	  {
-			 $error = "<label class='text-danger'>Enter Designation</label>";
-	  }
-	  else
-	  {
-			 if(file_exists('data.json'))
+			 if(file_exists('E:/gitemp/data.json'))
 			 {
-					$current_data = file_get_contents('data.json');
+					$current_data = file_get_contents('E:/gitemp/data.json');
 					$array_data = json_decode($current_data, true);
 					$extra = array(
 						  'name'               =>     $_POST['name'],
@@ -28,9 +16,9 @@ if(isset($_POST["submit"]))
 					);
 					$array_data[] = $extra;
 					$final_data = json_encode($array_data);
-					if(file_put_contents('data.json', $final_data))
+					if(file_put_contents('E:/gitemp/data.json', $final_data))
 					{
-						  $message = "<label class='text-success'>File Appended Success fully</p>";
+						  $message = "";
 					}
 			 }
 			 else
