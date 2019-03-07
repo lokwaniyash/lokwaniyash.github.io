@@ -39,6 +39,7 @@ url("fonts/Lato_Regular.ttf")
 }
 
 #myBtn:hover {
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
   background-color: #555;
 }
 .personalText{
@@ -46,6 +47,7 @@ url("fonts/Lato_Regular.ttf")
 }
 
 a:hover{
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
    font-weight: 100;
 }
 
@@ -56,7 +58,8 @@ html {
 }
 
 body {
-   margin: 0
+   margin: 0;
+   cursor: url("https://i.ibb.co/NpjCyCP/cur2.png"), pointer;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -90,6 +93,7 @@ a:active, a:hover {
    outline: 0;
    text-decoration: none;
    font-weight: bold;
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
    transition: font-weight 200ms, font-size 200ms;
 }
 
@@ -1610,6 +1614,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-lightbox-inactive, .w-lightbox-inactive:hover {
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
    opacity: 0
 }
 
@@ -2214,6 +2219,7 @@ blockquote {
 }
 
 .nav-link:hover {
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
    opacity: 0.8;
 }
 
@@ -2520,6 +2526,7 @@ blockquote {
 }
 
 .show-more-studies:hover {
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
    opacity: 0.6;
    -webkit-transform: perspective(957px) translate3d(0px, 0px, -15px);
    transform: perspective(957px) translate3d(0px, 0px, -15px);
@@ -2561,6 +2568,7 @@ blockquote {
 }
 
 .read-case-study:hover {
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
    opacity: 0.87;
 }
 
@@ -2583,6 +2591,7 @@ blockquote {
 }
 
 .button:hover {
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
    background-color: #ff426e;
 }
 
@@ -2927,6 +2936,7 @@ blockquote {
 }
 
 .blog-grid:hover {
+   cursor: url("https://i.ibb.co/9cWNwgv/curh.png"),pointer;
    opacity: 0.8;
 }
 

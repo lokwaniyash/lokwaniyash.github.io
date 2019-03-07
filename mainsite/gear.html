@@ -94,11 +94,9 @@
       </div>
    </header>
    <div class="our-team-hero section">
-      <div class="shapes-wrapper"><img class="large-circle" data-ix="softly-float-back" src="imgs/geek.svg" width="20%"><img class="large-hexagon" data-ix="large-hexagon" src="imgs/tongue.svg"
-            width="30%"><img class="small-hexagon" data-ix="softly-float-forward" src="imgs/tongue.svg" width="17%"><img class="small-circle" data-ix="softly-float-back" src="imgs/icn_ai.svg"
-            width="12%"><img class="small-triangle" data-ix="softly-float-forward" src="imgs/surprise.svg" width="9%"><img class="medium-circle" data-ix="medium-circle" src="imgs/icn_psd.svg"
-            width="13%"><img class="large-square" data-ix="softly-float-back-lighter" src="imgs/confused.svg" width="24%"><img class="large-triangle" data-ix="large-triangle" src="imgs/ok.svg"
-            width="50%"></div>
+      <div class="shapes-wrapper"><img class="large-circle" data-ix="softly-float-back" src="imgs/geek.svg" width="20%"><img class="large-hexagon" data-ix="large-hexagon" src="imgs/tongue.svg" width="30%"><img class="small-hexagon" data-ix="softly-float-forward"
+            src="imgs/tongue.svg" width="17%"><img class="small-circle" data-ix="softly-float-back" src="imgs/icn_ai.svg" width="12%"><img class="small-triangle" data-ix="softly-float-forward" src="imgs/surprise.svg" width="9%"><img class="medium-circle"
+            data-ix="medium-circle" src="imgs/icn_psd.svg" width="13%"><img class="large-square" data-ix="softly-float-back-lighter" src="imgs/confused.svg" width="24%"><img class="large-triangle" data-ix="large-triangle" src="imgs/ok.svg" width="50%"></div>
       <div class="hero-container w-container">
          <h1 class="hero-heading">My Gear<br /> &amp; Softwares.</h1>
          <h2 class="hero-sub-heading">This is the stuff that my life runs around.</h2>
@@ -156,11 +154,18 @@
    <script src="../ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
    <script src="../daks2k3a4ib2z.cloudfront.net/567875ddd74390fe094fcbb6/js/webflow.b6431e542.js" type="text/javascript"></script>
    <script type="text/javascript">
-      setInterval(function() {
          let arr = ["Talk is Cheap. Show me the Code.", "You are the SEMICOLON to my STATEMENTS;", "Programming is like sex. One mistake and you have to support it for the rest of your life.", "God is real, Unless declared as an Integer",
             "Everything is designed, few things are designed well.", "Design is so Simple that's why it's so complicated.", "Design won't save the World, But it Damn sure makes it look Good.", "Design is intelligence made visible.",
-            "Good art is a taste, Good Design is an opinion"
+            "Good art is a taste, Good Design is an opinion", "How you look at it is pretty much how you'll see it",
+            "You've baked a really lovely cake, but then you've used dog shit for frosting.", "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+            "A language that doesn't affect the way you think about programming is not worth knowing.", " A clever person solves a problem. A wise person AVOIDS it.",
+            "It is not enough to do your best: you must KNOW what to do, and THEN do your best.", "Simple things should be simple, complex things should be POSSIBLE.", "Adding manpower to a late software project makes it later.",
+            "9 women CANNOT make a baby in ONE MONTH."
          ];
+      var rand = arr[Math.floor(Math.random() * arr.length)];
+      document.getElementById('para1').innerHTML = "\"" + rand + "\"";
+      setInterval(function() {
+
          var rand1 = arr[Math.floor(Math.random() * arr.length)];
          document.getElementById('para1').innerHTML = "\"" + rand1 + "\"";
       }, 30000);
