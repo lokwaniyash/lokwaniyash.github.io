@@ -11,6 +11,10 @@
    <meta content="Webflow" name="generator">
    <meta name="theme-color" content="#000000">
    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
    <link href="../daks2k3a4ib2z.cloudfront.net/567875ddd74390fe094fcbb6/css/studio96.webflow.0a903518c.css" rel="stylesheet" type="text/css">
    <link href="../daks2k3a4ib2z.cloudfront.net/567875ddd74390fe094fcbb6/css/scroll.css" rel="stylesheet" type="text/css">
@@ -42,7 +46,7 @@
    <header class="header">
       <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
          <!-- <a class="w-clearfix w-nav-brand" href="index.html"><img class="site-logo" src="https://s4.aconvert.com/convert/p3r68-cdx67/cb7ju-iyt2i.svg" width="80" style="margin-bottom: 8px;"> -->
-         <div class="site-title" id="personalText" style="font-family: 'Righteous', sans-serif; margin-left: 10px;font-size: 34px;">KickAss</div>
+         <div class="site-title" id="personalText" style="font-family: 'Righteous'; margin-left: 10px;font-size: 34px;">KickAss</div>
          <!-- <a href="https://ibb.co/xhtrtTD"><img src="https://i.ibb.co/qB323Qd/kay-1-white.png" alt="kay-1-white" border="0"></a><br /><a target='_blank' href='https://aluminumsulfate.net/aluminum-nitrate'>what is the formula for lead sulfate</a><br /> -->
          <!-- </a> -->
          <div class="nav-contact"><a class="contact-icon w-inline-block" href="https://www.instagram.com/unununstable/"><img class="fb-icon" src="https://en.instagram-brand.com/wp-content/themes/ig-branding/prj-ig-branding/assets/images/ig-logo.svg"
@@ -181,163 +185,9 @@
          document.getElementById('para1').innerHTML = "\"" + rand1 + "\"";
       }, 30000);
 
-      // (function emojiCursor() {
-      //
-      //    var possibleEmoji = ["😀", "😂", "😆", "😊"]
-      //    var width = window.innerWidth;
-      //    var height = window.innerHeight;
-      //    var cursor = {
-      //       x: width / 2,
-      //       y: width / 2
-      //    };
-      //    var particles = [];
-      //
-      //    function init() {
-      //       bindEvents();
-      //       loop();
-      //    }
-      //
-      //    // Bind events that are needed
-      //    function bindEvents() {
-      //       document.addEventListener('mousemove', onMouseMove);
-      //       document.addEventListener('touchmove', onTouchMove);
-      //       document.addEventListener('touchstart', onTouchMove);
-      //
-      //       window.addEventListener('resize', onWindowResize);
-      //    }
-      //
-      //    function onWindowResize(e) {
-      //       width = window.innerWidth;
-      //       height = window.innerHeight;
-      //    }
-      //
-      //    function onTouchMove(e) {
-      //       if (e.touches.length > 0) {
-      //          for (var i = 0; i < e.touches.length; i++) {
-      //             addParticle(e.touches[i].clientX, e.touches[i].clientY, possibleEmoji[Math.floor(Math.random() * possibleEmoji.length)]);
-      //          }
-      //       }
-      //    }
-      //
-      //    function onMouseMove(e) {
-      //       cursor.x = e.clientX;
-      //       cursor.y = e.clientY;
-      //
-      //       addParticle(cursor.x, cursor.y, possibleEmoji[Math.floor(Math.random() * possibleEmoji.length)]);
-      //    }
-      //
-      //    function addParticle(x, y, character) {
-      //       var particle = new Particle();
-      //       particle.init(x, y, character);
-      //       particles.push(particle);
-      //    }
-      //
-      //    function updateParticles() {
-      //
-      //       // Updated
-      //       for (var i = 0; i < particles.length; i++) {
-      //          particles[i].update();
-      //       }
-      //
-      //       // Remove dead particles
-      //       for (var i = particles.length - 1; i >= 0; i--) {
-      //          if (particles[i].lifeSpan < 0) {
-      //             particles[i].die();
-      //             particles.splice(i, 1);
-      //          }
-      //       }
-      //
-      //    }
-      //
-      //    function loop() {
-      //       requestAnimationFrame(loop);
-      //       updateParticles();
-      //    }
-      //
-      //    /**
-      //     * Particles
-      //     */
-      //
-      //    function Particle() {
-      //
-      //       this.lifeSpan = 120; //ms
-      //       this.initialStyles = {
-      //          "position": "absolute",
-      //          "display": "block",
-      //          "pointerEvents": "none",
-      //          "z-index": "10000000",
-      //          "fontSize": "16px",
-      //          "will-change": "transform"
-      //       };
-      //
-      //       // Init, and set properties
-      //       this.init = function(x, y, character) {
-      //
-      //          this.velocity = {
-      //             x: (Math.random() < 0.5 ? -1 : 1) * (Math.random() / 2),
-      //             y: 1
-      //          };
-      //
-      //          this.position = {
-      //             x: x - 10,
-      //             y: y - 20
-      //          };
-      //
-      //          this.element = document.createElement('span');
-      //          this.element.innerHTML = character;
-      //          applyProperties(this.element, this.initialStyles);
-      //          this.update();
-      //
-      //          document.body.appendChild(this.element);
-      //       };
-      //
-      //       this.update = function() {
-      //          this.position.x += this.velocity.x;
-      //          this.position.y += this.velocity.y;
-      //          this.lifeSpan--;
-      //
-      //          this.element.style.transform = "translate3d(" + this.position.x + "px," + this.position.y + "px,0) scale(" + (this.lifeSpan / 120) + ")";
-      //       }
-      //
-      //       this.die = function() {
-      //          this.element.parentNode.removeChild(this.element);
-      //       }
-      //
-      //    }
-      //
-      //    /**
-      //     * Utils
-      //     */
-      //
-      //    // Applies css `properties` to an element.
-      //    function applyProperties(target, properties) {
-      //       for (var key in properties) {
-      //          target.style[key] = properties[key];
-      //       }
-      //    }
-      //
-      //    init();
-      // })();
-
-
-      //
-      // var playground = document.querySelector("body");
-      //
-      // var cursorArray = ['url("http://jantimon.nl/running_man/running_man_1.cur"), auto',
-      //    'url("http://jantimon.nl/running_man/running_man_2.cur"), auto',
-      //    'url("http://jantimon.nl/running_man/running_man_3.cur"), auto',
-      //    'url("http://jantimon.nl/running_man/running_man_4.cur"), auto',
-      //    'url("http://jantimon.nl/running_man/running_man_5.cur", auto'
-      // ];
-      // i = 0;
-      // (function cursor() {
-      //    playground.style.cursor = cursorArray[i];
-      //    i++;
-      //    if (i == cursorArray.length) {
-      //       i = 0;
-      //    }
-      //    setTimeout(cursor, 50);
-      // })();
+      let fonts = ["Righteous","ZCOOL QingKe HuangYou","Indie Flower","Permanent Marker","Shadows Into Light"];
+      rand = fonts[Math.floor(Math.random()*fonts.length)];
+      document.getElementById("personalText").style.fontFamily = rand;
    </script>
    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
