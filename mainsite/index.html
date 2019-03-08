@@ -28,14 +28,6 @@
       });
    </script>
    <script type="text/javascript">
-      $(function() {
-         $('a[href*=#]').on('click', function(e) {
-            e.preventDefault();
-            $('html, body').animate({
-               scrollTop: $($(this).attr('href')).offset().top
-            }, 500, 'linear');
-         });
-      });
    </script>
    <style>
       #bar {
@@ -217,12 +209,12 @@
 
       function set_elem(elem, total) {
          var percent_inc = 100 / total; //equally divide 100 among all elements
-
+         console.log(total);
          //if element is loaded
          if ($(elem).length == 1) {
             $('#bar').animate({
                width: pg + percent_inc + "%"
-            }, 10, function() {
+            }, 1, function() {
                if (document.getElementById("bar").style.width == "100%") {
                   //hide the bar
                   $('#bar').fadeOut(350);

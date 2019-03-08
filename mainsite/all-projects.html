@@ -24,12 +24,24 @@
          }
       });
    </script>
+   <style media="screen">
+   #bar {
+      position:fixed;
+      z-index:2147483647;
+      width:0%;
+      height:10px;
+      top:0;
+      left:0;
+      background:#ffd232;
+   }
+   </style>
    <script src="../daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js" type="text/javascript"></script>
    <link href="imgs/fav5.ico" rel="shortcut icon" type="image/x-icon">
    <link href="../daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 
 <body>
+   <div id="bar"></div>
    <header class="header">
       <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
          <!-- <a class="w-clearfix w-nav-brand" href="index.html"><img class="site-logo" src="https://s4.aconvert.com/convert/p3r68-cdx67/cb7ju-iyt2i.svg" width="80" style="margin-bottom: 8px;"> -->
@@ -118,6 +130,35 @@
       let fonts = ["Righteous","ZCOOL QingKe HuangYou","Indie Flower","Permanent Marker","Shadows Into Light"];
       rand = fonts[Math.floor(Math.random()*fonts.length)];
       document.getElementById("personalText").style.fontFamily = rand;
+
+      var pg = 0; //progress bar width initially
+      document.onreadystatechange = function() {
+         if (document.readyState == "interactive") {
+            var allElem = $("*");
+            var length = allElem.length;
+            for (var i = 0; i < length; i++) {
+               set_elem(allElem[i], length);
+            }
+         }
+      }
+
+      function set_elem(elem, total) {
+         var percent_inc = 100 / total; //equally divide 100 among all elements
+
+         //if element is loaded
+         if ($(elem).length == 1) {
+            $('#bar').animate({
+               width: pg + percent_inc + "%"
+            }, 1, function() {
+               if (document.getElementById("bar").style.width == "100%") {
+                  //hide the bar
+                  $('#bar').fadeOut(350);
+               }
+            });
+            //update the previous width value
+            pg = pg + percent_inc;
+         }
+      }
    </script>
 </body>
 <!-- Mirrored from studio96.webflow.io/all-projects by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Jan 2019 17:00:11 GMT -->

@@ -99,6 +99,7 @@
   .mfp-preloader a {
     color: #CCC; }
     .mfp-preloader a:hover {
+      cursor: url("https://i.ibb.co/9cWNwgv/curh.png"), pointer;
       color: #FFF; }
 
 .mfp-s-ready .mfp-preloader {
@@ -143,6 +144,7 @@ button::-moz-focus-inner {
   font-family: Arial, Baskerville, monospace; }
   .mfp-close:hover,
   .mfp-close:focus {
+     cursor: url("https://i.ibb.co/9cWNwgv/curh.png"), pointer;
     opacity: 1;
     filter: alpha(opacity=100); }
   .mfp-close:active {
@@ -183,6 +185,7 @@ button::-moz-focus-inner {
     margin-top: -54px; }
   .mfp-arrow:hover,
   .mfp-arrow:focus {
+     cursor: url("https://i.ibb.co/9cWNwgv/curh.png"), pointer;
     opacity: 1;
     filter: alpha(opacity=100); }
   .mfp-arrow:before,
