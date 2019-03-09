@@ -104,6 +104,12 @@
        border-top-color: #1a181a;
 
        z-index: 1001;
+       margin: 0;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
    }
 
        #loader:before {
@@ -206,8 +212,8 @@
          <center><img src="imgs/facemorphing.gif" id="loader"></ center>
 
 
-         <div class="loader-section section-left"></div>
-         <div class="loader-section section-right"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
 
       </div>
       <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
