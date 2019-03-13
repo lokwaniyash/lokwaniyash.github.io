@@ -2,13 +2,14 @@
    opacity: 1;
    -webkit-transition: all .5s ease-in 3s;
    transition: all .5s ease-in 3s;
+
 }
 
 .scroll-down {
    position: absolute;
    bottom: 30px;
-   left: 47.7%;
-   margin-left: -16px;
+   overflow: hidden;
+   margin-left: -50px;
    display: block;
    width: 100px;
    height: 100px;
@@ -21,7 +22,9 @@
    -webkit-transition: all .2s ease-in;
    transition: all .2s ease-in;
    transform: scale(1);
+   left: 50%;
 }
+
 
 .scroll-down:before {
    position: absolute;
