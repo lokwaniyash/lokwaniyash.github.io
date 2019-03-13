@@ -25,6 +25,18 @@ html {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.bigYash{
+   color: #2399ee;
+   font-weight: bold;
+   font-size: 70px;
+
+}
+
+.bigYash:hover{
+   font-size: 80px;
+   transition: all 200ms;
+}
+
 #myBtn {
    display: none;
    position: fixed;
