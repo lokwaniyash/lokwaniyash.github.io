@@ -2100,6 +2100,7 @@ blockquote {
 .section.our-team-section {
    overflow: hidden;
    background-color: #ffffff;
+   height: 100%;
 }
 
 .section.case-studies {
@@ -3182,6 +3183,7 @@ html.w-mod-js *[data-ix="softly-float-forward"] {
    }
 
    .section.our-team-section {
+      height: 70%;
       padding-right: 20px;
    }
 

@@ -280,7 +280,7 @@
          </div><a class="button read-button w-button" href="../design">See All</a>
       </div>
    </div>
-   <div class="our-team-section section" style="height: 100%;">
+   <div class="our-team-section section">
       <h3 class="faded giant-heading">My Gear &amp;<br>Softwares.</h3>
       <div class="w-container wide-container">
          <p class="intro-paragraph our-team-intro">This is the stuff that makes my life much easier and I plead to use them. Every. Single. Day.</p><a class="button team-button w-button" href="gear.html">Wanna see it?</a>
@@ -335,40 +335,6 @@
       let fonts = ["Righteous", "ZCOOL QingKe HuangYou", "Indie Flower", "Permanent Marker", "Shadows Into Light"];
       rand = fonts[Math.floor(Math.random() * fonts.length)];
       document.getElementById("personalText").style.fontFamily = rand;
-
-
-      // var pg = 0; //progress bar width initially
-      // document.onreadystatechange = function() {
-      //    if (document.readyState == "interactive") {
-      //       var allElem = $("*");
-      //       var length = allElem.length;
-      //       for (var i = 0; i < length; i++) {
-      //          set_elem(allElem[i], length);
-      //       }
-      //    }
-      // }
-      //
-
-      // function set_elem(elem, total) {
-      //    var percent_inc = 100 / total; //equally divide 100 among all elements
-      //    console.log(total);
-      //    //if element is loaded wow omg this is just so great sseeeeeeeeelfkefexxxxxxxsshhh jjjjjjjwwaassdd//**--++/*-+
-
-
-
-      //    if ($(elem).length == 1) {
-      //       $('#bar').animate({
-      //          width: pg + percent_inc + "%"
-      //       }, 1, function() {
-      //          if (document.getElementById("bar").style.width == "100%") {
-      //             //hide the bar
-      //             $('#bar').fadeOut(350);
-      //          }
-      //       });
-      //       //update the previous width value
-      //       pg = pg + percent_inc;
-      //    }
-      // }
 
       window.onload = function() {
          document.getElementById("loader-wrapper").style.zIndex = "-1";

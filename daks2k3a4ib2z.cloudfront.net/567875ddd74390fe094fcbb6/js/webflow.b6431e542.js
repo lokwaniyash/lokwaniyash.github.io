@@ -2583,7 +2583,6 @@
                if (emptyFix) $el.addClass('w-ix-emptyfix');
 
                // Set preserve3d for triggers with transforms
-               if (trigger.preserve3d) $el.css('transform-style', 'preserve-3d');
             }
 
             var _tram = tram($el);
