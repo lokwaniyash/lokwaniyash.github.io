@@ -179,9 +179,9 @@
             <!-- <a href="https://ibb.co/xhtrtTD"><img src="https://i.ibb.co/qB323Qd/kay-1-white.png" alt="kay-1-white" border="0"></a><br /><a target='_blank' href='https://aluminumsulfate.net/aluminum-nitrate'>what is the formula for lead sulfate</a><br /> -->
             <!-- </a> -->
             <div class="nav-contact">
-                <a class="contact-icon w-inline-block" href="https://www.instagram.com/unununstable/"><img class="fb-icon" src="https://en.instagram-brand.com/wp-content/themes/ig-branding/prj-ig-branding/assets/images/ig-logo.svg" width="34" style="margin-top: -6px;" /></a>
-                <a class="contact-icon w-inline-block" href="https://github.com/lokwaniyash/"><img class="fb-icon" src="./imgs/git-logo.png" width="34" style="margin-top: -6px;" /></a>
-                <a class="contact-icon w-inline-block" href="https://www.behance.net/kickassyash"><img class="fb-icon" src="./imgs/beh-logo.png" width="34" style="margin-top: -6px;" /></a>
+                <a class="contact-icon w-inline-block" href="https://www.instagram.com/unununstable/"><img class="insta-icon" src="./imgs/insta-logo.png" onmouseover="instaHover(this)" onmouseout="instaUnHover(this)" width="34" style="margin-top: -6px;" /></a>
+                <a class="contact-icon w-inline-block" href="https://github.com/lokwaniyash/"><img class="git-icon" src="./imgs/git-logo.png" onmouseover="gitHover(this)" onmouseout="gitUnHover(this)" width="34" style="margin-top: -6px;" /></a>
+                <a class="contact-icon w-inline-block" href="https://www.behance.net/kickassyash"><img class="beh-icon" src="./imgs/beh-logo.png" onmouseover="behHover(this)" onmouseout="behUnHover(this)" width="34" style="margin-top: -6px;" /></a>
             </div>
             <div class="navbar-container w-container">
                 <nav class="nav-menu w-nav-menu" role="navigation">
@@ -467,6 +467,30 @@
                 $("body").addClass("loaded");
             }, 1900);
         };
+
+        function instaHover(element) {
+            element.setAttribute("src", "./imgs/insta-logo-or.png");
+        }
+
+        function instaUnHover(element) {
+            element.setAttribute("src", "./imgs/insta-logo.png");
+        }
+
+        function gitHover(element) {
+            element.setAttribute("src", "./imgs/git-logo-or.png");
+        }
+
+        function gitUnHover(element) {
+            element.setAttribute("src", "./imgs/git-logo.png");
+        }
+
+        function behHover(element) {
+            element.setAttribute("src", "./imgs/beh-logo-or.png");
+        }
+
+        function behUnHover(element) {
+            element.setAttribute("src", "./imgs/beh-logo.png");
+        }
     </script>
     <!--[if lte IE 9
       ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script
