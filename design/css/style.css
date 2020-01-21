@@ -55,6 +55,10 @@ a.foot:hover{
 	cursor: url("https://i.ibb.co/9cWNwgv/curh.png"), pointer;
 }
 
+a.heading:hover{
+	cursor: url("https://i.ibb.co/9cWNwgv/curh.png"), pointer;
+}
+
 .nav-menu{
     float: right;
     line-height: 32px;
